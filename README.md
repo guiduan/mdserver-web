@@ -39,13 +39,13 @@
 ### 自动安装
 
 ```
-curl -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/install.sh | bash
+curl -fsSL  https://raw.githubusercontent.com/guiduan/mdserver-web/master/scripts/install.sh | bash
 ```
 
 ### 脚本更新
 
 ```
-curl -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/update.sh | bash
+curl -fsSL  https://raw.githubusercontent.com/guiduan/mdserver-web/master/scripts/update.sh | bash
 ```
 
 ### 无图不真相
