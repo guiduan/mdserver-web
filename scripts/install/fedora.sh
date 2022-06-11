@@ -73,7 +73,7 @@ yum install -y libevent libevent-devel mysql-devel libjpeg* libpng* gd* zip unzi
 yum install gcc libffi-devel python-devel openssl-devel -y
 
 if [ ! -d /www/server/mdserver-web ];then
-	wget -O /tmp/master.zip https://codeload.github.com/midoks/mdserver-web/zip/master
+	wget -O /tmp/master.zip https://codeload.github.com/guiduan/mdserver-web/zip/master
 	cd /tmp && unzip /tmp/master.zip
 	mv /tmp/mdserver-web-master /www/server/mdserver-web
 	rm -rf /tmp/master.zip
