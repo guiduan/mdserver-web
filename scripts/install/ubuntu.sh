@@ -43,7 +43,7 @@ fi
 
 
 if [ "${isVersion}" == '' ];then
-	if [ ! -f "/etc/init.d/iptables" ];then
+	if [ ! -f "/usr/sbin/ufw" ];then
 		apt install -y firewalld
 		systemctl enable firewalld
 		systemctl start firewalld
